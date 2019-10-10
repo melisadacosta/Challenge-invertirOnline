@@ -69,11 +69,12 @@ body .logo-container .logo img {
   color: #0A92EF;
 }
 
-footer {
+.footer-container {
   background-color: #ffffff;
   height: 45px;
+  width: 100%;
 }
-footer p {
+.footer-container p {
   color: #707070;
   font-size: 12px;
   padding-top: 15px;
@@ -81,6 +82,50 @@ footer p {
 
 .row {
   margin-right: 0px;
+}
+
+.img-register {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.text-register h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.text-register p {
+  text-align: center;
+  width: 250px;
+  font-size: 13.5px;
+  color: #707070;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container-register {
+  background-color: #ffffff;
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-container-register p {
+  color: #707070;
+  font-size: 12px;
+  padding-top: 15px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

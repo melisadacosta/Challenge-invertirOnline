@@ -32,9 +32,10 @@ body{
         }
     }
 }
-footer{
+.footer-container{
     background-color: #ffffff;
     height: 45px;
+    width: 100%;
     p{
         color: $color-txt;
         font-size: 12px;
