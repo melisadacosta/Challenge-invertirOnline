@@ -1,0 +1,20 @@
+@import '../variable/variable';
+
+.form-control{
+    border-bottom: 1px solid $input-color;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    font-family: $main-font;
+    font-style: italic;
+    background: transparent;
+    &:focus {
+        outline: none;
+        border-bottom: 1px solid $input-color-focus;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+        background: transparent;
+    }
+}

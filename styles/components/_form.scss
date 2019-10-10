@@ -1,0 +1,11 @@
+@import '../variable/variable';
+
+label{
+    font-family: $main-font;
+    font-size: 16px;
+    font-weight: bold;
+    color: $color-txt-title;
+}
+.form-row{
+    margin-bottom: 10px;
+}

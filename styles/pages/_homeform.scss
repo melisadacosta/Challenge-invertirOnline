@@ -1,0 +1,48 @@
+@import '../variable/variable';
+body{
+    background-color: #F0F0F7;
+    .logo-container{
+        background-color: #ffffff;
+        height: 45px;
+        box-shadow: 0 9px 20px #ccc;
+        margin-bottom: 40px;
+    .logo{
+        img{
+            width: 150px;
+            margin-top: 5px;
+        }
+    }
+}
+}
+.container{
+    font-family: $main-font;
+    h1{
+        font-size: 20px;
+        color: $color-txt;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    .registration-conditions{
+        p{
+            font-size: 13.5px;
+            color: $color-txt;
+        }
+        a{
+            color: $color-txt-link;
+        }
+    }
+}
+footer{
+    background-color: #ffffff;
+    height: 45px;
+    p{
+        color: $color-txt;
+        font-size: 12px;
+        padding-top: 15px;
+    }
+}
+
+
+.row{
+    margin-right: 0px;
+}
